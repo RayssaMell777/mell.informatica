@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   width: 1140px;
+   max-width: 100%;
+   margin: auto;
+   padding: 10px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(204, 161, 243);
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 a img {
+    width: 80px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    background-color: rgb(248, 238, 97);
+    color: rgb(179, 18, 157);
+    padding: 15px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(198, 243, 138);
+    color: black;
+}
+
+header {
+    background-color: rgb(255, 230, 240);
+}
+
+header img {
+    width: 100%;
+    border: 4px solid rgb(96, 137, 250);
+    object-fit: cover;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearflix ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: #d5a1ec;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100% ;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(116, 8, 179);
+    outline: none;
+
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus  {
+    background-color: rgb(248, 238, 97);
+}  
+
+.produto-imagem {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
